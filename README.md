@@ -1,10 +1,29 @@
-# QQC2 Desktop Style
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# qqc2-desktop-style
 
-This is a style for Qt Quick Controls (also known as QQC2 in Qt5) which uses the application's [QStyle](https://doc.qt.io/qt-6/qstyle.html) to paint the controls in order to give them native look and feel.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/qqc2-desktop-style)
 
-This framework has no public API, applications should not (and cannot) use it directly. Instead, developers should add this framework as a dependency of their desktop apps.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
+
+## Architecture
+
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/qqc2-desktop-style.git
+cd qqc2-desktop-style
+```
 
 ## Usage
+
 
 The name of the style is `org.kde.desktop`. 
 
@@ -46,22 +65,50 @@ If the application supports Android, check if  `Q_OS_ANDROID` is defined first:
 #endif
 ```
 
-## Differences from QQC2 Breeze Style
+## Configuration
 
-QQC2 Desktop Style should be used in desktop applications thanks to its native QStyling, making it look and feel like a QtWidgets application. However it has a noticeable performance impact on mobile systems like Plasma Mobile and Android. It's also desirable to avoid using QtWidgets on those platforms too. 
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-It's recommended to use [QQC2 Breeze Style](https://invent.kde.org/plasma/qqc2-breeze-style) as shown above for those platforms. It replicates the Breeze visual design without depending on QStyle. 
+## CI
 
-## Building
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-The easiest way to make changes and test QQC2 Desktop Style during development is to [build it with kdesrc-build](https://community.kde.org/Get_Involved/development/Build_software_with_kdesrc-build).
+## Mirror chain
 
-## Contributing
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/qqc2-desktop-style`](https://github.com/Interested-Deving-1896/qqc2-desktop-style) and mirrored through:
 
-Like other projects in the KDE ecosystem, contributions are welcome from all. This repository is managed in [KDE Invent](https://invent.kde.org/frameworks/qqc2-desktop-style), our GitLab instance.
+```
+Interested-Deving-1896/qqc2-desktop-style  ──►  OpenOS-Project-OSP/qqc2-desktop-style  ──►  OpenOS-Project-Ecosystem-OOC/qqc2-desktop-style
+```
 
-* Want to contribute code? See the [GitLab wiki page](https://community.kde.org/Infrastructure/GitLab) for a tutorial on how to send a merge request.
-* Reporting a bug? Please submit it on the [KDE Bugtracking System](https://bugs.kde.org/enter_bug.cgi?format=guided&product=frameworks-qqc2-desktop-style). Please do not use the Issues tab to report bugs.
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-If you get stuck or need help with anything at all, head over to the [KDE New Contributors room](https://go.kde.org/matrix/#/#kde-welcome:kde.org) on Matrix. For questions about QQC2 Desktop Style, please ask in the [KDE Development room](https://go.kde.org/matrix/#/#kde-devel:kde.org). See [Matrix](https://community.kde.org/Matrix) for more details.
+## Contributors
 
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
